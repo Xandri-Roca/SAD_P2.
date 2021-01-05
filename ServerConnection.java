@@ -64,7 +64,7 @@ public class ServerConnection{
 	public static void broadcast(String message, String nick){
 		lk.lock();
 		for(Map.Entry<String, MySocket> entry : users.entrySet()){
-			MySocket s = entry.getValue(); //////////////////////////////////////////////////////////////
+			MySocket s = entry.getValue();
 			if(!nick.equals(entry.getKey())){
 				s.write(nick+"> "+message);
 			}
