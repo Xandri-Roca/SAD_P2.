@@ -10,3 +10,14 @@ Per tal de efr l'execuió, es requereix de 3 terminals:
   ```
   Initialized server. Waiting for users.
   ```
+   
+   Així es com el servidor en sindicia que está en l'estat d'escolta.
+   
+   - En un segon terminal, s'haurà d'executar el fitxer **ClientConnection.java**. Un cop executat veurem que el servidor ens envia un missatge dient:
+  ```
+  Enter your nick for this chat: 
+  ```
+   
+   Aquí es on l'usuari haurà de decidir el seu nick amb el qual serà identificat pel servidor.
+   
+   - 
