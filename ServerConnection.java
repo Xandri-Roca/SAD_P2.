@@ -37,12 +37,10 @@ public class ServerConnection{
 					}
 					removeUser(nick);
 					client.close();
-
 				}
 			}.start();
 		}
 	}
-
 
 
 	public static void addUser(String user, MySocket socket){
