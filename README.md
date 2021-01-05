@@ -7,6 +7,6 @@ El servidor manté un diccionari de parells (nick,socket). Aquest diccionari s'h
 ### Procés d'execució:
 Per tal de efr l'execuió, es requereix de 3 terminals:
   - En el primer s'haurà d'executar el fitxer **ServerConnection.java**. Un cop executat, veurem que apareix el missatge:
-  '''
+  ```
   Initialized server. Waiting for users.
-  '''
+  ```
