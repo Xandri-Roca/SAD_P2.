@@ -18,6 +18,14 @@ Per tal de efr l'execuió, es requereix de 3 terminals:
   Enter your nick for this chat: 
   ```
    
-   Aquí es on l'usuari haurà de decidir el seu nick amb el qual serà identificat pel servidor.
+   Aquí es on l'usuari haurà de decidir el seu nick amb el qual serà identificat pel servidor. Un cop introduit, veurem que en el servidor apareix:
+   ```
+   New User NICK joined the chat.
+   ```
    
-   - 
+   - En un tercer terminal s'haurà d'executar de nou el fitxer **ClientConnection.java**. Un cop executat i loggejats amb el nick decidit, veiem que ja podem comunicar-nos entre els diferents clients conectats al servidor.
+   
+   - En cas de que algun dels clients abandoni el chat, veurem el seguent missatge: 
+   ```
+   <NICK> left the chat.
+   ```
